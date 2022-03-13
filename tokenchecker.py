@@ -35,15 +35,17 @@ def Start():
 
     amount = lines
 
-    print(f"""
-[ Discord Token Checker ]
-         Z3NTL3
 
-Tokens Loaded: {amount}       
-""")
 
    
     for t in TOKENS:
+        print(f"""
+[ Discord Token Checker ]
+         Z3NTL3
+
+Tokens Loaded: {amount} 
+Valids: {valids}      
+""")
         th = threading.Thread(target=Check(token=t))
         th.start()
 
