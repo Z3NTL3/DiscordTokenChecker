@@ -1,7 +1,9 @@
 import threading
 import requests
 
-
+'''
+by Z3NTL3
+'''
 def GetTokens():
     l = open('tokens.txt','r').read().strip(' ').split('\n')
     return l
