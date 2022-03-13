@@ -13,6 +13,7 @@ The tool will save all the working tokens into 'goods.txt'
 
 # Source:
 For github newbies belike
+``Do not forget to create a 'tokens.txt' file next to the location of this tool with your tokens being pasted in the tokens.txt file.``
 ```python
 import threading
 import requests
