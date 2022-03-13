@@ -35,19 +35,21 @@ def Start():
 
     amount = lines
 
-
-
-   
-    for t in TOKENS:
-        print(f"""
+    print(f"""
 [ Discord Token Checker ]
          Z3NTL3
 
-Tokens Loaded: {amount} 
-Valids: {valids}      
+Checking \033[36m{amount}\033[0m token amounts
+
 """)
+
+   
+    for t in TOKENS:
         th = threading.Thread(target=Check(token=t))
         th.start()
-
+    print(f"""
+[ Process Ended ]
+Valids: {valids}
+""")
 if __name__ == '__main__':
     Start()
