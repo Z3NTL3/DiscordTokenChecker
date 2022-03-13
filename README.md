@@ -1,5 +1,5 @@
 # DiscordTokenChecker
-A Discord Token Checker
+A Discord multiple Tokens validity Checker
 
 # Usage
 ```comment
